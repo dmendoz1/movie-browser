@@ -21,17 +21,17 @@ const MovieApp = _ => {
       <div className="movie-container">
         <Nav />
         <Route
-          path="/"
+          path={process.env.PUBLIC_URL + '/'}
           exact
           render={(props) => <Discover fetchMovies={fetchMovies}/>}
         />
         <Route
-          path="/theaters-today"
+          path={process.env.PUBLIC_URL + '/theaters-today'}
           exact
           render={(props) => <TheatersToday fetchMovies={fetchMovies}/>}
         />
         <Route
-          path="/popular"
+          path={process.env.PUBLIC_URL + '/popular'}
           exact
           render={(props)=> <Popular fetchMovies={fetchMovies}/>}
         />
