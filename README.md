@@ -1,6 +1,6 @@
 Technologies used: Javascript(React JS), CSS3, HTML5.
 
-Webapp that fetches from the https://www.themoviedb.org movie database API and lets user look for movies. Lodash's Debouncer is used to limit API fetch requests.
+Webapp that fetches from the https://www.themoviedb.org movie database API and lets user look for movies. Lodash's Debouncer is used to limit API fetch requests. It also uses React's 'react-dom-router' to load different components.
 
 Demo: https://dmendoz1.github.io/movie-browser/
 
