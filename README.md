@@ -2,7 +2,7 @@ Technologies used: Javascript(React JS), CSS3, HTML5.
 
 Webapp that fetches from the https://www.themoviedb.org movie database API and lets user look for movies. Lodash's Debouncer is used to limit API fetch requests.
 
-Demo: https://gitname.github.io/react-gh-pages/
+Demo: https://dmendoz1.github.io/movie-browser/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
